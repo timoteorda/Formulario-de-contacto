@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="formulario" id="formContacto">
+        <div class="divTitulo">
+            <h1 class="tituloForm">Formulario de Contacto</h1>
+        </div>
+        <div class="divForm">
+            <label class="subtituloForm" for="nombre">Nombre:</label>
+            <input class="inputForm" type="text" id="nombre" name="nombre">
+            <label class="subtituloForm" for="apellido">Apellido:</label>
+            <input class="inputForm" type="text" id="apellido" name="apellido">
+            <label class="subtituloForm" for="mail">Correo electrónico:</label>
+            <input class="inputForm" type="email" id="mail" name="mail">
+            <label class="subtituloForm" for="mail">Escriba su consulta:</label>
+            <div class="form-group">
+            <textarea class="areaMensaje" id="texto" rows="3" placeholder="Inserte texto"></textarea>
+        </div>
+        <button class="enviarForm" id="botonSubmit" type="submit">Enviar</button>
+    </form>
+    <script src="javascript.js"></script>
+</body>
+</html>

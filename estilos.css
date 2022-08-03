@@ -1,0 +1,79 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-image: linear-gradient(to right, #BF3C1F, #D97A43, #BF7D56, #D9A689);    
+}
+
+.formulario{
+    width: 35%;
+    margin-top: 5rem;
+    margin-left: 33%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 
+    0 0 5px #2222,
+    0 0 5px #2222,
+    0 0 5px #2222,
+    0 0 10px #2222,
+    0 0 20px #2222,
+    0 0 10px #2222,
+    0 0 20px #2222,
+    0 0 20px #2222,
+    0 0 20px #2222;
+}
+
+.divTitulo{
+    background: lineal-gradient(#244673, #465573);
+    border-radius: 10px;
+    color: white;
+}
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.tituloForm{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.subtituloForm{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 7%;
+}
+
+.inputForm{
+    height: 1.8rem;
+    width: 85%;
+    margin-left: 6.5%;
+}
+
+.areaMensaje{
+    height: 8rem;
+    width: 85.5%;
+    margin-top: 0.5rem;
+    margin-left: 6.5%;
+}
+
+.enviarForm{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-image: linear-gradient(to right,#D97A43, #BF7D56);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 37%;
+}
+
+.enviarForm:hover{
+    background-image: linear-gradient(to right,#BF7D56, #BF3C1F);
+}
